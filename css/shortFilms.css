@@ -1,0 +1,78 @@
+body{
+	background-image: url(../img/shortFilms-head.jpg);
+	background-size: 100%;
+	top: -45px;
+}
+/*中間主體*/
+/*banner*/
+.big-banner-transparent{
+	height: 100vh;
+}
+/*內容*/
+body>.container-fluid{
+	width: 100vw;
+}
+body>.container-fluid>.row{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+/*introduction*/
+#introduction{
+	padding: 20px 0;
+}
+#introduction>p{  
+	font-family: "comic sans ms";
+	padding: 0 5px;
+	font-size: 16px;
+}
+hr{
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+/**/
+.theatricalShorts>p,
+.carstoons>p,
+.toyStoryToons>p,
+.homeEntertainmentShorts>p{
+	font-family: "brandon-grotesque";
+    font-size: 39px;
+}
+.theatricalShorts-ul,
+.carstoons-ul,
+.toyStoryToons-ul,
+.homeEntertainmentShorts-ul{
+	margin-left: -2%;
+}
+.theatricalShorts-ul>li,
+.carstoons-ul>li,
+.toyStoryToons-ul>li,
+.homeEntertainmentShorts-ul>li{
+	list-style: none;
+	height: 266px;
+	margin: 20px 4%;
+}
+.theatricalShorts-ul>li>a,
+.carstoons-ul>li>a,
+.toyStoryToons-ul>li>a,
+.homeEntertainmentShorts-ul>li>a{
+	height: 236px;
+	width: 160px;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: -15%;
+}
+.theatricalShorts-ul>li>span,
+.carstoons-ul>li>span,
+.toyStoryToons-ul>li>span,
+.homeEntertainmentShorts-ul>li>span{
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 0px;
+	margin-left: -5%;
+	margin-top: 10px;
+	display: block;
+}
+

@@ -1,0 +1,19 @@
+body{
+	background-image: url(../img/index-head.jpg);
+	background-size: 130%;
+}
+/*中間主體*/
+/*內容*/
+body>.container-fluid>.row{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+body>.container-fluid>.row>li{
+	list-style: none;
+}
+body>.container-fluid>.row>li>span{
+	width: 100%;
+	text-align: center;
+	line-height: 80px;
+	display: block;
+}

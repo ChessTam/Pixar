@@ -1,0 +1,32 @@
+body{
+	background-image: url(../img/futureFilms-head.jpg);
+	background-size: 100%;
+}
+/*中間主體*/
+/*內容*/
+body>.container-fluid>.row{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+body>.container-fluid>.row>li{
+	list-style: none;
+	height: 266px;
+	margin: 20px 8%;
+}
+body>.container-fluid>.row>li>a{
+	height: 266px;
+	width: 160px;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: -14px;
+}
+body>.container-fluid>.row>li>span{
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 0px;
+	margin-top: -20px;
+	display: block;
+}
